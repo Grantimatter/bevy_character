@@ -5,7 +5,11 @@ edition = "2024"
 
 [dependencies]
 avian3d = { version = "0.3.1", optional = true }
+bevy_ecs = "0.16.1"
 
 [features]
 default = ["physics3d"]
 physics3d = ["dep:avian3d"]
+
+[dev-dependencies]
+bevy = "0.16.1"

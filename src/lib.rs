@@ -1,4 +1,2 @@
-#[cfg(test)]
-mod tests {
-    use super::*;
-}
+#[cfg(feature = "physics3d")]
+pub mod physics;
